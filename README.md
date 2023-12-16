@@ -15,7 +15,7 @@
 ## 1 Запуск программы 
 1. Клонирование репозитория
 2. Установить соответствующие библиотеки: `pip install psycopg2`, `pip install pandas`, `pip install duckdb`, `pip install sqlalchemy`
-3. Ввести адрес вашего .csv файла (данные из базы данных "New York Taxi Cars") и данные для подключения к `PostgreSQL`(psycopg2.py)
+3. Ввести адрес вашего .csv файла (данные из базы данных "New York Taxi Cars") и данные для подключения к `PostgreSQL`(psycopg.py)
 4. Запустить программы 
 > [!NOTE]
 > В исходных данных (nyc_yellow_tiny.csv, nyc_yellow_big.csv) присутствует ошибка! Последний столбец дублируется => ошибка sql и ошибка заполнения столбцов!
